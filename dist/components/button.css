@@ -20,8 +20,8 @@
   outline: none;
   border: none;
   vertical-align: baseline;
-  background: #E0E1E2 none;
-  color: rgba(0, 0, 0, 0.6);
+  background: #FFCD11 none;
+  color: #1B1C1D;
   font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: 0em 0.25em 0em 0em;
   padding: 0.78571429em 1.5em 0.78571429em;
@@ -58,7 +58,7 @@
 ---------------*/
 
 .ui.button:hover {
-  background-color: #CACBCD;
+  background-color: #F6D452;
   background-image: none;
   -webkit-box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
           box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
@@ -73,7 +73,7 @@
 ---------------*/
 
 .ui.button:focus {
-  background-color: #CACBCD;
+  background-color: #F6D452;
   color: rgba(0, 0, 0, 0.8);
   background-image: '' !important;
   -webkit-box-shadow: '' !important;
@@ -89,7 +89,7 @@
 
 .ui.button:active,
 .ui.active.button:active {
-  background-color: #BABBBC;
+  background-color: #F6C303;
   background-image: '';
   color: rgba(0, 0, 0, 0.9);
   -webkit-box-shadow: 0px 0px 0px 1px transparent inset, none;
@@ -741,7 +741,7 @@
 .ui.basic.buttons .button,
 .ui.basic.button {
   background: transparent none !important;
-  color: rgba(0, 0, 0, 0.6) !important;
+  color: #1B1C1D !important;
   font-weight: normal;
   border-radius: 0.28571429rem;
   text-transform: none;
@@ -1518,7 +1518,7 @@
 .ui.inverted.grey.button:active {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  color: rgba(0, 0, 0, 0.6);
+  color: #1B1C1D;
 }
 .ui.inverted.grey.buttons .button:hover,
 .ui.inverted.grey.button:hover {
@@ -2895,7 +2895,7 @@
 .ui.inverted.teal.button:active {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  color: rgba(0, 0, 0, 0.6);
+  color: #1B1C1D;
 }
 .ui.inverted.teal.buttons .button:hover,
 .ui.inverted.teal.button:hover {
@@ -3048,7 +3048,7 @@
 .ui.inverted.olive.button:active {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  color: rgba(0, 0, 0, 0.6);
+  color: #1B1C1D;
 }
 .ui.inverted.olive.buttons .button:hover,
 .ui.inverted.olive.button:hover {
@@ -3201,7 +3201,7 @@
 .ui.inverted.yellow.button:active {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  color: rgba(0, 0, 0, 0.6);
+  color: #1B1C1D;
 }
 .ui.inverted.yellow.buttons .button:hover,
 .ui.inverted.yellow.button:hover {
@@ -3828,11 +3828,5 @@
 
 /*******************************
          Theme Overrides
-*******************************/
-
-
-
-/*******************************
-         Site Overrides
 *******************************/
 
